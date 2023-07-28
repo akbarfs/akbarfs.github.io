@@ -144,10 +144,34 @@
 }
 
 .triangle-0 {
-    width: 20px;
-    height: 10px;
-    border-bottom: solid 5px #030303;
-    border-right: solid 5px #030303;
+    width: 5px;
+    height: 5px;
+    border-bottom: solid 5px transparent;
+    border-right: solid 5px transparent;
+    border-left: solid 5px #030303;
+    border-top: solid 5px #030303;
+}
+
+#reasume:hover > #triangel-1{
+    border-top: solid 5px #e80320;
+    border-left: solid 5px #e80320;
+}
+
+.triangle-1 {
+    width: 5px;
+    height: 5px;
+    border-bottom: solid 5px wheat;
+    border-right: solid 5px wheat;
     border-left: solid 5px transparent;
     border-top: solid 5px transparent;
-  }
+}
+
+@media only screen and (max-width: 600px) {
+    .glitch {
+      font-size: 45px;
+    }
+
+    .img-1{
+        width: 100%;
+    }
+}
