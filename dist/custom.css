@@ -17,6 +17,7 @@
   }
 
 .glitch {
+    padding-right: 20px;
     font-size: 60px;
     font-weight: bold;
     text-transform: uppercase;
@@ -91,18 +92,6 @@
     background-blend-mode: color;
 }
 
-.img-1{
-    width: 450px;
-    height: 450px;
-    background: url("../art/0.png");
-    background-size: cover;
-}
-
-.img-1:hover{
-    background: url("../art/2.png");
-    background-size: cover;
-}
-
 @keyframes float {
 	0% {
 		transform: translatey(0px);
@@ -147,14 +136,28 @@
     width: 5px;
     height: 5px;
     border-bottom: solid 5px transparent;
-    border-right: solid 5px transparent;
-    border-left: solid 5px #030303;
+    border-right: solid 5px #030303;
+    border-left: solid 5px transparent;
     border-top: solid 5px #030303;
 }
 
 #reasume:hover > #triangel-1{
+    border-right: solid 5px #e80320;
     border-top: solid 5px #e80320;
-    border-left: solid 5px #e80320;
+}
+
+#border-image{
+    background: rgba(255, 255, 255, 0.161);
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.501);
+}
+
+#akbar_art:hover > #border-image{
+    background-color: white;
+    border: white;
+    opacity: 100%;
 }
 
 .triangle-1 {
@@ -168,7 +171,8 @@
 
 @media only screen and (max-width: 600px) {
     .glitch {
-      font-size: 45px;
+      font-size: 40px;
+      padding-right: 0;
     }
 
     .img-1{
