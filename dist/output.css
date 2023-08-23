@@ -651,6 +651,10 @@ video {
   right: -40px;
 }
 
+.-top-12 {
+  top: -3rem;
+}
+
 .-top-2 {
   top: -0.5rem;
 }
@@ -847,6 +851,10 @@ video {
   margin-right: 0.75rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -966,6 +974,10 @@ video {
   height: 5rem;
 }
 
+.h-28 {
+  height: 7rem;
+}
+
 .h-32 {
   height: 8rem;
 }
@@ -988,6 +1000,10 @@ video {
 
 .h-5 {
   height: 1.25rem;
+}
+
+.h-52 {
+  height: 13rem;
 }
 
 .h-\[160px\] {
@@ -1041,6 +1057,10 @@ video {
 
 .w-10 {
   width: 2.5rem;
+}
+
+.w-28 {
+  width: 7rem;
 }
 
 .w-32 {
@@ -2200,6 +2220,29 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#d53147\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(213 49 71 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#bb3345\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(187 51 69 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#cd0e27\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(205 14 39 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#cd0e27d2\] {
+  background-color: #cd0e27d2;
+}
+
 .bg-\[url\(\'\.\/\.\.\/art\/0\.png\'\)\] {
   background-image: url('./../art/0.png');
 }
@@ -2412,10 +2455,6 @@ video {
 
 .pt-\[9px\] {
   padding-top: 9px;
-}
-
-.pb-20 {
-  padding-bottom: 5rem;
 }
 
 .text-left {
@@ -3225,10 +3264,6 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
-  }
-
-  .md\:flex-row-reverse {
-    flex-direction: row-reverse;
   }
 
   .md\:justify-start {
