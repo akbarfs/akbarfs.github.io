@@ -651,10 +651,6 @@ video {
   right: -40px;
 }
 
-.-top-12 {
-  top: -3rem;
-}
-
 .-top-2 {
   top: -0.5rem;
 }
@@ -974,10 +970,6 @@ video {
   height: 5rem;
 }
 
-.h-28 {
-  height: 7rem;
-}
-
 .h-32 {
   height: 8rem;
 }
@@ -1000,10 +992,6 @@ video {
 
 .h-5 {
   height: 1.25rem;
-}
-
-.h-52 {
-  height: 13rem;
 }
 
 .h-\[160px\] {
@@ -1057,10 +1045,6 @@ video {
 
 .w-10 {
   width: 2.5rem;
-}
-
-.w-28 {
-  width: 7rem;
 }
 
 .w-32 {
@@ -1126,10 +1110,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.max-w-screen-xl {
-  max-width: 1280px;
 }
 
 .flex-shrink {
@@ -1690,8 +1670,20 @@ video {
   gap: 1.25rem;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .gap-y-\[80px\] {
   row-gap: 80px;
+}
+
+.gap-y-5 {
+  row-gap: 1.25rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2220,29 +2212,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[\#d53147\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(213 49 71 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#bb3345\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(187 51 69 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#cd0e27\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(205 14 39 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#cd0e27d2\] {
-  background-color: #cd0e27d2;
-}
-
 .bg-\[url\(\'\.\/\.\.\/art\/0\.png\'\)\] {
   background-image: url('./../art/0.png');
 }
@@ -2457,6 +2426,10 @@ video {
   padding-top: 9px;
 }
 
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2545,6 +2518,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
@@ -3183,6 +3161,10 @@ video {
     top: 5rem;
   }
 
+  .md\:-right-\[40px\] {
+    right: -40px;
+  }
+
   .md\:z-0 {
     z-index: 0;
   }
@@ -3274,6 +3256,14 @@ video {
     justify-content: space-between;
   }
 
+  .md\:gap-0 {
+    gap: 0px;
+  }
+
+  .md\:gap-5 {
+    gap: 1.25rem;
+  }
+
   .md\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(2rem * var(--tw-space-x-reverse));
@@ -3316,6 +3306,11 @@ video {
     padding-bottom: 0px;
   }
 
+  .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   .md\:pr-5 {
     padding-right: 1.25rem;
   }
@@ -3333,19 +3328,9 @@ video {
     background-color: transparent;
   }
 
-  .md\:hover\:text-blue-700:hover {
-    --tw-text-opacity: 1;
-    color: rgb(29 78 216 / var(--tw-text-opacity));
-  }
-
   @media (prefers-color-scheme: dark) {
     .md\:dark\:hover\:bg-transparent:hover {
       background-color: transparent;
-    }
-
-    .md\:dark\:hover\:text-blue-500:hover {
-      --tw-text-opacity: 1;
-      color: rgb(59 130 246 / var(--tw-text-opacity));
     }
   }
 }
